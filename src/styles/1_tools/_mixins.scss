@@ -1,0 +1,13 @@
+@use "../0_settings/breakpoints" as b;
+
+@mixin mobile {
+  @media (width > b.$mobile) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (width > b.$desktop) {
+    @content;
+  }
+}

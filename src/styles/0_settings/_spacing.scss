@@ -1,0 +1,31 @@
+// Base 4-Point Grid Spacing
+
+// This spacing system is based on a 4-point grid, where spacing increments follow a 4px baseline.
+// The variables below define the spacing in rem units, providing a consistent and scalable spacing system.
+
+:root {
+  --sp-100: 0.25rem;  // 4px
+  --sp-200: 0.5rem;   // 8px
+  --sp-300: 0.75rem;  // 12px
+  --sp-400: 1rem;     // 16px
+  --sp-500: 1.25rem;  // 20px
+  --sp-600: 1.5rem;   // 24px
+  --sp-700: 1.75rem;  // 28px
+  --sp-800: 2rem;     // 32px
+  --sp-900: 2.25rem;  // 36px
+  --sp-1000: 2.5rem;  // 40px
+}
+
+// Add fluid spacing with clamp?
+// :root {
+//   --sp-100: clamp(0.25rem, 0.25vw + 0.2rem, 0.5rem);
+//   --sp-200: clamp(0.5rem, 0.5vw + 0.2rem, 0.75rem);
+//   --sp-300: clamp(0.75rem, 0.75vw + 0.2rem, 1rem);
+//   --sp-400: clamp(1rem, 1vw + 0.2rem, 1.25rem);
+//   --sp-500: clamp(1.25rem, 1.25vw + 0.2rem, 1.5rem);
+//   --sp-600: clamp(1.5rem, 1.5vw + 0.2rem, 1.75rem);
+//   --sp-700: clamp(1.75rem, 1.75vw + 0.2rem, 2rem);
+//   --sp-800: clamp(2rem, 2vw + 0.2rem, 2.25rem);
+//   --sp-900: clamp(2.25rem, 2.25vw + 0.2rem, 2.5rem);
+//   --sp-1000: clamp(2.5rem, 2.5vw + 0.2rem, 2.75rem);
+// }
