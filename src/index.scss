@@ -1,4 +1,4 @@
-@use "@/styles/0_settings/breakpoints";
+@use "@/styles/0_settings/breakpoints.module";
 @use "@/styles/0_settings/colors";
 @use "@/styles/0_settings/fonts";
 @use "@/styles/0_settings/spacing";
@@ -7,4 +7,5 @@
 
 @use "@/styles/3_elements/base";
 
+@use "@/styles/6_utilities/bold";
 @use "@/styles/6_utilities/visually-hidden";

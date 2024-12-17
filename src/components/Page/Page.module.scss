@@ -1,0 +1,12 @@
+@use "@/styles/0_settings/breakpoints.module";
+
+.page {
+  display: grid;
+  align-items: start;
+  padding: var(--sp-900);
+
+  @media (width > breakpoints.$desktop) {
+    grid-template-columns: 70% 1fr;
+    gap: var(--sp-400);
+  }
+}

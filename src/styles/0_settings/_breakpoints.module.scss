@@ -1,0 +1,7 @@
+$mobile: 375px;
+$desktop: 800px;
+
+:export {
+  mobile: $mobile;
+  desktop: $desktop;
+}

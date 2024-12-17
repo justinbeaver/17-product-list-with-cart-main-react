@@ -1,5 +1,7 @@
+import { Page } from "./components/Page/Page";
+
 function App() {
-  return <h1>Product list with cart</h1>;
+  return <Page />;
 }
 
 export default App;

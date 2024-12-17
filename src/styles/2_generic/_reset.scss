@@ -2,20 +2,20 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 // Remove default spacing
 * {
-    margin: 0;
-    padding: 0;
-    font: inherit;
+  margin: 0;
+  padding: 0;
+  font: inherit;
 }
 
 // Remove list styles
 // ul[role="list"],
 // ol[role="list"] {
-//     list-style: none;
+//   list-style: none;
 // }
 
 // Set defaults for images
@@ -23,11 +23,11 @@ img,
 picture,
 svg,
 video {
-    display: block;
-    // vertical-align: middle;
-    max-width: 100%;
-    // height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-style: italic;
+  display: block;
+  // vertical-align: middle;
+  max-width: 100%;
+  // height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-style: italic;
 }
