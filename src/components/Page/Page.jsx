@@ -15,7 +15,7 @@ export const Page = () => {
   // Fetch products json and set products state
   useEffect(() => {
     const loadData = async () => {
-      const url = "/data.json";
+      const url = "17-product-list-with-cart-main-react/data.json";
       const response = await fetch(url);
       const json = await response.json();
 
